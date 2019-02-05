@@ -8,3 +8,5 @@ app = dash.Dash(__name__, server=server)
 app.layout = html.Div([
     html.H2(children='Hello, Dash')
  ])
+
+app.run_server()
