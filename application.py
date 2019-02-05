@@ -1,6 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
+import dash
 
-@app.route("/")
-def hello():
-    return "Hello World!"
+app = dash.Dash(__name__)
+
+app.layout = html.Div([
+    html.H1(children='Hello Dash')
+])
