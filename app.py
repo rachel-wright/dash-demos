@@ -9,4 +9,4 @@ app.layout = html.Div([
     html.H2(children='Hello, Dash')
  ])
 
-app.run_server()
+server.run()
