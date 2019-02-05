@@ -9,4 +9,6 @@ app.layout = html.Div([
     html.H2(children='Hello, Dash')
  ])
 
-server.run()
+@server.route("/")
+def hello():
+    return "Hello World!"
