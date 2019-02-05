@@ -10,4 +10,5 @@ app.layout = html.Div([
  ])
  
 @app.route("/")
- 
+def start():
+    return 'Hello, world' 
