@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import afms_charts
 import afms_layout
-import afms_utiltities as util
+import afms_utilities as util
 
 bu='BU'
 gp='Group'
