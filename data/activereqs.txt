@@ -1,0 +1,99 @@
+Date	ReqType	BU	ReqID	Openings	Title	DIV	Location	Clearance	HiringManager	Recruiter	Group
+1/28/2019	Sold & Funded	TCE	16530	1	Fighter Pilot (Air to Ground) SME - 16530	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	TCE	17399	1	Software Developer - 17399	Cyber and Mission Readiness	"Rome, NY"	No Clearance	"Elliott, Benjamin"	"Schmidt, Daniel"	90+
+1/28/2019	Sold & Funded	TCE	17437	1	Software Developer - 17437	Training Systems and Solutions	"Virginia Beach, VA"	Secret (S)	"Marshall, Kimberly"	"Coleman, Darlyn"	90+
+1/28/2019	Sold & Funded	TCE	17502	1	Air Defense Ops RT3 Sim Instructor - 17502	Cyber and Mission Readiness	"Einsiedlerhof, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	TCE	17503	1	AOC Combat Plans SME - 17503	Cyber and Mission Readiness	"Einsiedlerhof, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	TCE	17505	1	Sr. Offensive Duty Ofcr (SODO)/Dynamic Targeting (DT) SME - 17505	Cyber and Mission Readiness	"Einsiedlerhof, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	TCE	17587	1	IT Support Technician - 17587	Training Systems and Solutions	"San Diego, CA"	Secret (S)	"Gill, Thomas"	"Coleman, Darlyn"	90+
+1/28/2019	Sold & Funded	TCE	17610	1	Information Assurance (IA) System Security Engineer Level II - 17610	Cyber and Mission Readiness	"Des Moines, IA"	Secret (S)	"Rezak, David"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	TCE	17618	1	Cyber Warfare Tools Planner - 17618	Cyber and Mission Readiness	Langley AFB	TS/SCI	"Elliott, Benjamin"	"Asamoah, Foley"	90+
+1/28/2019	Sold & Funded	TCE	17620	1	Offensive/Defensive Cyber Counter Operations Planner - 17620	Cyber and Mission Readiness	Langley AFB	TS/SCI	"Elliott, Benjamin"	"Asamoah, Foley"	90+
+1/28/2019	Sold & Funded	DMIT	17701	1	Security Systems Administrator - 17701	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	90+
+1/28/2019	Sold & Funded	DMIT	17716	1	Systems Administrator - 17716	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	90+
+1/28/2019	Sold & Funded	TCE	17719	1	Senior Engineer - 17719	Life Cycle Management & Engineering	"Huntsville, AL"	Secret (S)	"Brooks, John"	"Coleman, Darlyn"	90+
+1/28/2019	Sold & Funded	DMIT	17753	1	Office 365 Migration Coordinator - 17753	Enterprise IT	"Washington, D.C."	Background Screen Only	"Green, Jillian"	"Lucio, Mark"	90+
+1/28/2019	Sold & Funded	DMIT	17766	1	Informatica Admin - 17766	SW Engineering & Data Analytics	"Raleigh, NC"	USPS	"Meylan, Jared"	"Nehru, Shweta"	90+
+1/28/2019	Sold & Funded	TCE	17702	1	Remotely Piloted Aircraft (RPA) Pilot/Sensor Operator SME - 17702	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	TCE	17763	1	Electronic Warfare (EW) / Cryptologic Technician (CT) Joint Tactical Terminal (JTT) Operator - 17763	Training Systems and Solutions	"San Diego, CA"	Secret Clearance (S)	"Leverman, Arron"	"Coleman, Darlyn"	90+
+1/28/2019	Sold & Funded	TCE	17808	1	Information Assurance Systems Engineer - 17808	Cyber and Mission Readiness	"Anchorage, AK"	Secret (S)	"Rezak, David"	"Asamoah, Foley"	90+
+1/28/2019	Sold & Funded	DMIT	17817	1	SharePoint Architect - 17817	Enterprise IT	"Washington, D.C."	AOUSC	"Green, Jillian"	"Lucio, Mark"	90+
+1/28/2019	Sold & Funded	P&I	17839	1	Counterintelligence Analyst - 17839	National Intelligence	"McLean, VA"	TS/SCI w/FS Poly	"Stinson, Joshua"	"Schmidt, Daniel"	90+
+1/28/2019	Sold & Funded	DMIT	17862	1	Database Developer - 17862	SW Engineering & Data Analytics	"Raleigh, NC"	USPS	"Meylan, Jared"	"Nehru, Shweta"	90+
+1/28/2019	Sold & Funded	TCE	17881	1	Training Systems Engineer - 17881	Cyber and Mission Readiness	"Wright Patterson AFB, OH"	Secret (S)	"Rezak, David"	"Schmidt, Daniel"	90+
+1/28/2019	Sold & Funded	TCE	17874	1	JTAC Trainer - 17874	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	90+
+1/28/2019	Sold & Funded	P&I	17891	1	Property Accountability Officer IV - 17891	Acquisition and Technical Support	"Edgewood, MD"	Secret (S)	"Phillips, Douglas"	"Currin, Jessica"	60+
+1/28/2019	Sold & Funded	P&I	17894	1	Transition Manager III - 17894	Acquisition and Technical Support	"Edgewood, MD"	Secret (S)	"Phillips, Douglas"	"Currin, Jessica"	60+
+1/28/2019	Sold & Funded	TCE	17873	1	E-3 Airborne Warning and Control System (SME) - 17873	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	60+
+1/28/2019	Sold & Funded	TCE	17897	1	Pilot / Combat Systems Operator / Weapons Systems Operator - 17897	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	60+
+1/28/2019	Sold & Funded	TCE	17918	1	Mobility Airlift / Aerial Refueling SME - 17918	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	60+
+1/28/2019	Sold & Funded	TCE	17928	1	Intermediate Instructional Systems Designer - 17928	Cyber and Mission Readiness	"Orlando, FL"	Secret (S)	"Reyes, Aimee"	"Connolly, Vanessa"	60+
+1/28/2019	Sold & Funded	P&I	17892	1	Staff Logistician IV - 17892	Acquisition and Technical Support	"Edgewood, MD"	Secret Clearance (S)	"Phillips, Douglas"	"Currin, Jessica"	60+
+1/28/2019	Sold & Funded	TCE	17960	1	Computer Operations Engineer/Technician 17960	Cyber and Mission Readiness	"Einsiedlerhof, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	60+
+1/28/2019	Sold & Funded	TCE	17962	1	Air Ops Center Expert - 17962	Cyber and Mission Readiness	"Ramstein-Miesenbach AFB, Germany"	Secret Clearance (S)	"Hunt, Alan"	"Connolly, Vanessa"	60+
+1/28/2019	Sold & Funded	DMIT	17997	1	Java Developer - 17997	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	30-59
+1/28/2019	Sold & Funded	DMIT	17998	1	National Support Desk (PACTS) - 17998	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	30-59
+1/28/2019	Sold & Funded	DMIT	18007	1	Senior IT Security Training Specialist - 18007	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	30-59
+1/28/2019	Sold & Funded	P&I	18014	1	Information Assurance Security Engineer 18014	National Intelligence	"Suitland, MD"	TS/SCI with CI poly	"Brandon, Ronald"	"Schmidt, Daniel"	30-59
+1/28/2019	Sold & Funded	DMIT	18018	1	Oracle Database Developer - 18018	SW Engineering & Data Analytics	"San Mateo, CA"	USPS	"Dingboom, Gary"	"Nehru, Shweta"	30-59
+1/28/2019	Sold & Funded	P&I	18021	1	Joint Training System Specialist - USINDOPACOM - 18021	Global Support	"Camp H.M. Smith, HI"	TS/SCI	"Pellecchia, Gino"	"Finnern, Shelly"	30-59
+1/28/2019	Sold & Funded	P&I	18024	1	SOUTHCOM Joint Training Assessments Analyst - 18024	Global Support	"Miami, FL"	TS/SCI	"Pellecchia, Gino"	"Finnern, Shelly"	30-59
+1/28/2019	Sold & Funded	DMIT	18029	1	Full-Stack Developer - 18029	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Aggarwal, Lokesh"	"Nehru, Shweta"	30-59
+1/28/2019	Sold & Funded	DMIT	18028	1	Web Applications Developer - Coldfusion - 18028	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	30-59
+1/28/2019	Sold & Funded	P&I	18026	1	Joint Task Force Headquarters (JTF-HQ) Coordination Specialist - 18026	Global Support	"Miami, FL"	TS/SCI	"Pellecchia, Gino"	"Finnern, Shelly"	30-59
+1/28/2019	Sold & Funded	P&I	18031	1	Software Engineer - 18031	National Intelligence	"Corpus Christi, TX"	Background Screen Only	"Casey, Jason"	"Schmidt, Daniel"	30-59
+1/28/2019	Sold & Funded	TCE	18049	1	Information Assurance Systems Engineer Level 2 - 18049	Cyber and Mission Readiness	"Wright Patterson AFB, OH"	Secret (S)	"Rezak, David"	"Asamoah, Foley"	30-59
+1/28/2019	Sold & Funded	TCE	18046	1	Tactical Air Environment Subject Matter Expert - 18046	Cyber and Mission Readiness	Langley AFB	TS/SCI	"Horton, Dave"	"Connolly, Vanessa"	30-59
+1/28/2019	Sold & Funded	DMIT	18052	1	Systems Analyst - 18052	SW Engineering & Data Analytics	"Merrifield, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	30-59
+1/28/2019	Sold & Funded	DMIT	18055	1	National Support Desk (Financial Management) - 18055	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	<30
+1/28/2019	Sold & Funded	P&I	18076	1	DR-SKO (CBRNE) Field Service Technician - 18076	Preparedness and Logistics	Kuwait	Secret (S)	"DeFebbo, Robert"	"Schmidt, Daniel"	<30
+1/28/2019	Sold & Funded	DMIT	18064	1	Technical Writer - 18064	SW Engineering & Data Analytics	"Merrifield, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18085	2	Office 365 Migration Project Manager - 18085	Enterprise IT	"Washington, D.C."	AOUSC	"Green, Jillian"	"Lucio, Mark"	<30
+1/28/2019	Sold & Funded	P&I	18082	2	Sustainment Manager IV - 18082	Acquisition and Technical Support	"Edgewood, MD"	Secret (S)	"Phillips, Douglas"	"Currin, Jessica"	<30
+1/28/2019	Sold & Funded	P&I	18077	1	Staff Logistician III - 18077	Acquisition and Technical Support	"Edgewood, MD"	Secret Clearance (S)	"Phillips, Douglas"	"Currin, Jessica"	<30
+1/28/2019	Sold & Funded	P&I	18069	1	Property Accountability Officer III - 18069	Acquisition and Technical Support	"Edgewood, MD"	Secret (S)	"Phillips, Douglas"	"Currin, Jessica"	<30
+1/28/2019	Sold & Funded	DMIT	18104	1	NoSQL Big Data Developer - 18104	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18084	1	Active Directory Engineer - 18084	Enterprise IT	"Washington, D.C."	AOUSC	"Green, Jillian"	"Lucio, Mark"	<30
+1/28/2019	Sold & Funded	DMIT	18116	1	Training Specialist (SharePoint) - 18116	Enterprise IT	"Washington, D.C."	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	<30
+1/28/2019	Sold & Funded	DMIT	18137	1	ETL Engineer - 18137	SW Engineering & Data Analytics	"Raleigh, NC"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18139	1	Informatica Administrator - 18139	SW Engineering & Data Analytics	"Washington, D.C."	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	TCE	18145	1	Tactical Air Environment Subject Matter Expert - 18145	Cyber and Mission Readiness	"Orlando, FL"	TS/SCI	"Horton, Dave"	"Asamoah, Foley"	<30
+1/28/2019	Sold & Funded	TCE	18146	1	Tactical Air Environment Subject Matter Expert - 18146	Cyber and Mission Readiness	"Orlando, FL"	Secret (S)	"Horton, Dave"	"Asamoah, Foley"	<30
+1/28/2019	Sold & Funded	TCE	18143	1	Senior Systems Administrator - 18143	Cyber and Mission Readiness	"Rock Island, IL"	Secret (S)	"Jacquot, Glenn"	"Asamoah, Foley"	<30
+1/28/2019	Sold & Funded	P&I	18138	1	USINDOPACOM Joint Training System Specialist JTSS - Exercise Planner - 18138	Global Support	"Camp H.M. Smith, HI"	TS/SCI	"Pellecchia, Gino"	"Finnern, Shelly"	<30
+1/28/2019	Sold & Funded	TCE	18144	1	Training Systems Engineer - 18144	Cyber and Mission Readiness	"Wright Patterson AFB, OH"	Secret (S)	"Rezak, David"	"Schmidt, Daniel"	<30
+1/28/2019	Sold & Funded	P&I	18148	1	"PACAF Unit Deployment Manager (Eielson AFB, Alaska) - 18148"	Global Support	"Eielson AFB, Alaska"	Secret Clearance (S)	"Conrad, Curt"	"Finnern, Shelly"	<30
+1/28/2019	Sold & Funded	TCE	18149	1	Programmer - 18149	Cyber and Mission Readiness	"Des Moines, IA"	Secret Clearance (S)	"Rezak, David"	"Connolly, Vanessa"	<30
+1/28/2019	Sold & Funded	P&I	18157	1	Part Time USSOUTHCOM Exercise Support - 18157	Global Support	"Miami, FL"	Secret (S)	"Pellecchia, Gino"	"Finnern, Shelly"	<30
+1/28/2019	Sold & Funded	DMIT	18155	1	PACER Business/Test Analyst - 18155	Enterprise IT	"San Antonio, TX"	No Clearance	"Schmitt, Norma"	"Lucio, Mark"	<30
+1/28/2019	Sold & Funded	DMIT	18154	1	Release & Controls Analyst - 18154	Enterprise IT	"San Antonio, TX"	No Clearance	"Schmitt, Norma"	"Lucio, Mark"	<30
+1/28/2019	Sold & Funded	DMIT	18160	1	Software Developer - C/C++ - 18160	SW Engineering & Data Analytics	"Merrifield, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	TCE	18163	1	Financial Analyst - 18163	Cyber and Mission Readiness	"Orlando, FL"	Secret (S)	"Horton, Dave"	"Asamoah, Foley"	<30
+1/28/2019	Sold & Funded	DMIT	18171	1	Tanium Support Resource - 18171	SW Engineering & Data Analytics	"Morrisville, NC"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18168	1	Oracle Database Administrator - 18168	SW Engineering & Data Analytics	"Merrifield, VA"	USPS	"Choi, Leo"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18170	1	Firewall Security Engineer - 18170	SW Engineering & Data Analytics	"Morrisville, NC"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18169	1	Security Engineer (Endpoint Protection) - 18169	SW Engineering & Data Analytics	"Morrisville, NC"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	TCE	18162	1	Simulator Hardware Technician - 18162	Life Cycle Management & Engineering	"Huntsville, AL"	Secret (S)	"Luchini, Aaron"	"Coleman, Darlyn"	<30
+1/28/2019	Sold & Funded	DMIT	18173	1	Senior Java Developer - 18173	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Aggarwal, Lokesh"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18174	1	Java Principal Developer - 18174	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Aggarwal, Lokesh"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18175	1	Java Principal Developer II - 18175	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Aggarwal, Lokesh"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18176	1	UI/UX Developer - 18176	SW Engineering & Data Analytics	"Fairfax, VA"	USPS	"Aggarwal, Lokesh"	"Nehru, Shweta"	<30
+1/28/2019	Sold & Funded	DMIT	18177	1	Release & Controls Analyst (CM/ECF) - 18177	Enterprise IT	"San Antonio, TX"	No Clearance	"Schmitt, Norma"	"Lucio, Mark"	<30
+1/28/2019	Best Athlete	P&I	16385	1	Intelligence Analyst 16385	National Intelligence	"Reston, VA"	TS/SCI w/FS Poly	"Stinson, Joshua"	"Schmidt, Daniel"	90+
+1/28/2019	Best Athlete	P&I	17284	3	Linguist/Translator-17284	National Intelligence	"Reston, VA"	TS/SCI w/CI poly and willingness to take FS poly	"Stinson, Joshua"	"Schmidt, Daniel"	90+
+1/28/2019	Best Athlete	P&I	17401	2	Linguist/Translator (Travel Only) - 17401	National Intelligence	"Reston, VA"	TS/SCI w/CI poly and willingness to take FS poly	"Stinson, Joshua"	"Schmidt, Daniel"	90+
+1/28/2019	Best Athlete	P&I	17511	1	Intermediate Intelligence Analyst - 17511	National Intelligence	"Reston, VA"	TS/SCI w/FS Poly	"Stinson, Joshua"	"Schmidt, Daniel"	90+
+1/28/2019	Best Athlete	TCE	17593	1	IA/Cyber Security Specialist - 17593	Cyber and Mission Readiness	"Patuxent River, MD"	Secret (S)	"Musenbrock, Thomas"	"Connolly, Vanessa"	90+
+1/28/2019	Best Athlete	DMIT	17598	1	VMware VDI Engineer - 17598	Enterprise IT	"San Antonio, TX"	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	90+
+1/28/2019	Best Athlete	DMIT	17599	1	VMware VDI Engineer (DC) - 17599	Enterprise IT	"Washington, D.C."	Background Screen Only	"Schmitt, Norma"	"Lucio, Mark"	90+
+1/28/2019	Best Athlete	TCE	18019	1	Naval Training Systems Specialist - 18019	Training Systems and Solutions	"San Diego, CA"	Secret Clearance (S)	"Leverman, Arron"	"Coleman, Darlyn"	30-59
+1/28/2019	Best Athlete	DMIT	18030	1	Qlik Architect/Developer/Admin - 18030	SW Engineering & Data Analytics	"Merrifield, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	30-59
+1/28/2019	Best Athlete	DMIT	18161	1	Software Engineer - C#/.Net - 18161	SW Engineering & Data Analytics	"Merrifield, VA"	USPS	"Meylan, Jared"	"Nehru, Shweta"	<30
+1/28/2019	Indirect	TCE	17914	1	Capture Manager - 17914	Training Systems and Solutions	"Orlando, FL"	Secret (S)	"RHEA-MCKENZIE, Denise"	"Bianco, Anna"	60+
+1/28/2019	Indirect	Corporate	18152	1	Program Control/Financial Analyst - 18152	Corporate	"Stafford, VA"	No Clearance	"Richards, Aaron"	"Currin, Jessica"	<30
+1/28/2019	Indirect	Corporate	18153	1	Program Control/Financial Analyst - 18153	Corporate	"Abingdon, MD"	No Clearance	"Richards, Aaron"	"Currin, Jessica"	<30
+1/28/2019	Indirect	Corporate	18151	1	Corporate Security Manager - 18151	Corporate	"Fairfax, VA"	Top Secret (TS)	"Roman, John"	"Bianco, Anna"	<30
+1/28/2019	Indirect	Corporate	18165	2	Subcontracts Administrator - 18165	Corporate	"Fairfax, VA"	Secret (S)	"McAtee, Tim"	"Currin, Jessica"	<30
+1/28/2019	Indirect	Corporate	18164	1	Program Control/Financial Analyst - 18164	Corporate	"Fairfax, VA"	No Clearance	"Turk, Elizabeth"	"Coleman, Darlyn"	<30
+1/28/2019	Indirect	TCE	18184	1	Sr. Business Portfolio Manager - 18184	Life Cycle Management & Engineering	"Huntsville, AL"	Secret (S)	"Zunde, Aidis"	"Bianco, Anna"	<30
+1/28/2019	Indirect	Corporate	18172	1	Sr. Subcontracts Administrator  - 18172	Corporate	"Fairfax, VA"	No Clearance	"McAtee, Tim"	"Currin, Jessica"	<30
