@@ -2,7 +2,7 @@ import pandas as pd
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
-import afms_utiltities as util
+import afms_utilities as util
 
 def bu_pie(df, bu, val):
     labels = df[bu].values
