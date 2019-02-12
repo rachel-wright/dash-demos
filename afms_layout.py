@@ -1,5 +1,11 @@
 import dash_core_components as dcc
 import dash_html_components as html
+import plotly.graph_objs as go
+
+blank_figure = go.Figure(layout=go.Layout(
+    xaxis={'visible': False, 'showgrid': False},
+    yaxis={'visible': False, 'showgrid': False},
+))
 
 def afms_layout(bulist,agelist):
     return html.Div(
@@ -56,14 +62,33 @@ def afms_layout(bulist,agelist):
             [
                 html.Div(
                     [
-                        dcc.Graph(id='pie_graph')
+                        dcc.Graph(id='pie_graph', figure=blank_figure)
                     ],
                     className='four columns',
                     style={'margin-top': '20'}
                 ),
                 html.Div(
                     [
-                        dcc.Graph(id='main_graph')
+                        dcc.Graph(id='main_graph', figure=blank_figure)
+                    ],
+                    className='eight columns',
+                    style={'margin-top': '20'}
+                ),
+            ],
+            className='row'
+        ),
+        html.Div(
+            [
+                html.Div(
+                    # [
+                    #     dcc.Graph(id='sub_pie')
+                    # ],
+                    className='four columns',
+                    style={'margin-top': '20'}
+                ),
+                html.Div(
+                    [
+                        dcc.Graph(id='sub_graph',figure=blank_figure)
                     ],
                     className='eight columns',
                     style={'margin-top': '20'}

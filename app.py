@@ -76,6 +76,14 @@ def click_pie(val1, val3):
         return newbu
     return 
 
+@app.callback(
+    dash.dependencies.Output('sub_graph','figure'),
+    [dash.dependencies.Input('main_graph','selectedData')]
+)
+def fill_details(val):
+    return afms_charts.generate_details(val)
+
+
 @app.server.route('/')
 def index():
     return 'Index Page'

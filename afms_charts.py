@@ -13,7 +13,7 @@ def bu_pie(df, bu, val):
                 opacity=0.7,
                 )]
     layout = go.Layout(
-                margin={'l': 40, 'b': 200, 't': 10, 'r': 10},
+                margin={'l': 80, 'b': 200, 't': 10, 'r': 10},
                 legend={'x': 0, 'y': 1},
                 hovermode='closest',
                 # clickmode='event+select'
@@ -44,6 +44,7 @@ def location_bar(df, gp, gps, xv, yv, tv):
                 yaxis={'title': 'Active Reqs', 'range': [0, 5]},
                 margin={'l': 40, 'b': 200, 't': 10, 'r': 10},
                 legend={'x': 0, 'y': 1},
+                clickmode='select+event',
                 hovermode='closest'
             )
 
@@ -51,6 +52,28 @@ def location_bar(df, gp, gps, xv, yv, tv):
         'data': traces,
         'layout': layout
     }
+
+def generate_details(val):
+    show=False
+    trace=[]
+    if val:
+        show=True
+        trace = [go.Bar(
+                        x=[1, 2, 2, 11, 14, 20],
+                        y=['Offer Rejected','Still in Pipeline','2nd Interview', '1st Interview', 'Phone Screens', 'Applicants' ],
+                        width=.5,
+                        orientation = 'h',
+                        marker=dict(color=util.ltblue),               
+            )]
+    layout = go.Layout(
+                xaxis={'visible': show, 'showgrid': False},
+                yaxis={'visible': show, 'showgrid': False},
+                margin={'l': 200, 'b': 200, 't': 10, 'r': 10},
+                legend={'x': 0, 'y': 1},
+                hovermode='closest',
+                showlegend=False
+            )
+    return {'data': trace, 'layout': layout} 
 
 
 def generate_table(dataframe, max_rows=10):
