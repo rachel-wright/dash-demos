@@ -4,6 +4,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 import afms_utilities as util
 
+
 def bu_pie(df, bu, val):
     labels = df[bu].values
     trace = [go.Pie(labels=labels, values=df[val].values,
@@ -74,6 +75,53 @@ def generate_details(val):
                 showlegend=False
             )
     return {'data': trace, 'layout': layout} 
+
+def generate_rfs_bar(df):
+    gp='CLIN'
+    xv='Month'
+    yv='Actuals'
+    gps=df[gp].unique()
+    df2=pd.DataFrame({'Total': df.groupby([xv])[yv].sum()}).reset_index()
+    traces = []
+    for i in gps:
+        traces.append(go.Bar(
+            x=df[df[gp] == i][xv],
+            y=df[df[gp] == i][yv],
+            opacity=0.7,            
+            name=i,
+            textposition = 'auto',
+        ))
+
+    traces.append(go.Scatter(        
+        x=df2[xv],
+        y=df2['Total'],
+        name="Total"
+        ))
+
+    layout = go.Layout(
+                xaxis={'title': 'Month'},
+                yaxis={'title': 'Active Reqs', 'type': 'log'},
+                margin={'l': 40, 'b': 200, 't': 10, 'r': 10},
+                legend={'x': 0, 'y': 1},
+                clickmode='select+event',
+                hovermode='closest'
+            )
+
+    return {
+        'data': traces,
+        'layout': layout
+    }    
+
+
+
+
+
+
+
+
+
+
+
 
 
 def generate_table(dataframe, max_rows=10):

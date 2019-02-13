@@ -14,20 +14,31 @@ gp='Group'
 xv='Location'
 yv='Reqs'
 tv='Openings'
+rfs='RFS'
+clin='CLIN'
 
 raw = pd.read_csv('data/activereqs.txt',sep='\t', parse_dates=['Date'])
 pieraw = pd.DataFrame({'Reqs': raw.groupby(['BU','Group']).size(), 'Openings': raw.groupby(['BU','Group'])['Openings'].sum()}).reset_index()
 barraw = pd.DataFrame({'Reqs': raw.groupby(['Date','BU','Group','Location']).size(), 'Openings': raw.groupby(['Date','BU','Group','Location'])['Openings'].sum()}).reset_index()
+fin = pd.read_csv('data/rfs_actuals.txt',sep='\t')
 
-bu_options = [{'label': bu, 'value': bu} for bu in raw[bu].unique()]
-age_options = [{'label': gp, 'value': gp} for gp in raw[gp].unique()]
+bu_options = [{'label': i, 'value': i} for i in raw[bu].unique()]
+age_options = [{'label': i, 'value': i} for i in raw[gp].unique()]
+rfs_options = [{'label': i, 'value': i} for i in fin[rfs].unique()]
+clin_options = [{'label': i, 'value': i} for i in fin[clin].unique()]
 gps = raw[gp].unique()
 
 server = flask.Flask(__name__)
 app = dash.Dash(__name__, server=server)
 
+params = {
+    'bulist': bu_options,
+    'agelist': age_options,
+    'rfslist': rfs_options,
+    'clinlist': clin_options
+}
 
-app.layout = afms_layout.afms_layout(bu_options, age_options)
+app.layout = afms_layout.afms_layout(params)
 
 # BU pie chart filtered by age selected in dropdown
 @app.callback(
@@ -83,6 +94,13 @@ def click_pie(val1, val3):
 def fill_details(val):
     return afms_charts.generate_details(val)
 
+@app.callback(
+    dash.dependencies.Output('graph1', 'figure'),
+    [dash.dependencies.Input('rfs_selector','value'),
+    dash.dependencies.Input('clin_selector','value')]
+)
+def fill_findata(val1, val2):
+    return afms_charts.generate_rfs_bar(fin)
 
 @app.server.route('/')
 def index():
