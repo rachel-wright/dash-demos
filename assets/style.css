@@ -147,9 +147,9 @@
   h5 { font-size: 2.2rem; line-height: 1.5;  letter-spacing: -.05rem; margin-bottom: 0.6rem; margin-top: 0.6rem;}
   h6 { font-size: 2.0rem; line-height: 1.6;  letter-spacing: 0; margin-bottom: 0.75rem; margin-top: 0.75rem;}
   
-  p {
-    margin-top: 0; }
+  p { margin-top: 0; }
   
+  .right{ text-align: right }
   
   /* Blockquotes
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -231,7 +231,62 @@
     background-color: #1EAEDB;
     border-color: #1EAEDB; }
   
-  
+  .switch {
+        position: relative;
+        display: inline-block;
+        width: 6rem;
+        height: 3.4rem;
+      }
+      
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 2.6rem;
+        width: 2.6rem;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(2.6rem);
+        -ms-transform: translateX(2.6rem);
+        transform: translateX(2.6rem);
+      }
+      
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 3.4rem;
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+
   /* Forms
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   input[type="email"],
@@ -320,10 +375,10 @@
     border-collapse: collapse;
   }
   th,
-  td {
+  /* td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #E1E1E1; }
+    border-bottom: 1px solid #E1E1E1; } */
   th:first-child,
   td:first-child {
     padding-left: 0; }

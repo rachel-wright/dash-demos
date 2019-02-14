@@ -7,6 +7,10 @@ blank_figure = go.Figure(layout=go.Layout(
     yaxis={'visible': False, 'showgrid': False},
 ))
 
+figure_config = {
+        'displayModeBar': False
+    }
+
 def afms_layout(params):
     return html.Div([
         dcc.Tabs(id="tabs", value='tab-1', children=[
@@ -70,14 +74,14 @@ def recruiting_layout(params):
                 [
                     html.Div(
                         [
-                            dcc.Graph(id='pie_graph', figure=blank_figure)
+                            dcc.Graph(id='pie_graph', figure=blank_figure, config=figure_config)
                         ],
                         className='four columns',
                         style={'margin-top': '20'}
                     ),
                     html.Div(
                         [
-                            dcc.Graph(id='main_graph', figure=blank_figure)
+                            dcc.Graph(id='main_graph', figure=blank_figure, config=figure_config)
                         ],
                         className='eight columns',
                         style={'margin-top': '20'}
@@ -96,7 +100,7 @@ def recruiting_layout(params):
                     ),
                     html.Div(
                         [
-                            dcc.Graph(id='sub_graph',figure=blank_figure)
+                            dcc.Graph(id='sub_graph',figure=blank_figure, config=figure_config)
                         ],
                         className='eight columns',
                         style={'margin-top': '20'}
@@ -134,7 +138,45 @@ def budget_layout(params):
                 [
                     html.Div(
                         [
-                            html.P('Filter by RFS:'),
+                            html.P('Group by:')                  
+                        ],
+                        className='four columns'
+                    )
+                ],
+                className='row'
+            ),            
+            html.Div(
+                [
+                    html.Div(
+                        [
+                            html.Table(
+                                [html.Tr(
+                                    [html.Td(html.P('CLIN')),
+                                    html.Td(html.Label([
+                                                    dcc.Input(type='checkbox'),
+                                                    html.Span(className='slider switch round')
+                                                ],
+                                                className='switch')),
+                                    html.Td(html.P('RFS'))]
+                                )]
+                            )                            
+                        ],
+                        className='four columns'
+                    )
+                ],
+                className='row'
+            ),
+            html.Div(
+                [
+                    html.Div([html.P('Filter by RFS:')], className='four columns'),
+                    html.Div([html.P('Filter by CLIN:')], className='four columns'),
+                ],
+                className='row'
+            ),
+            html.Div(
+                [
+                    html.Div(
+                        [
                             dcc.Dropdown(
                                 id='rfs_selector',
                                 options=params['rfslist'],
@@ -142,11 +184,10 @@ def budget_layout(params):
                                 value=[]
                             )   
                         ],
-                        className='six columns'
+                        className='four columns'
                     ),
                     html.Div(
                         [
-                            html.P('Filter by CLIN:'),
                             dcc.Dropdown(
                                 id='clin_selector',
                                 options=params['clinlist'],
@@ -154,7 +195,7 @@ def budget_layout(params):
                                 value=[]
                             )
                         ],
-                        className='six columns'
+                        className='four columns'
                     ),
                 ],
                 className='row'
@@ -163,17 +204,17 @@ def budget_layout(params):
                 [
                     html.Div(
                         [
-                            dcc.Graph(id='graph1', figure=blank_figure)
+                            dcc.Graph(id='graph1', figure=blank_figure, config=figure_config)
                         ],
-                        className='six columns',
-                        style={'margin-top': '20'}
+                        className='eight columns',
+                        style={'margin': '20'}
                     ),
                     html.Div(
                         [
-                            dcc.Graph(id='graph2', figure=blank_figure)
+                            dcc.Graph(id='graph2', figure=blank_figure, config=figure_config)
                         ],
-                        className='six columns',
-                        style={'margin-top': '20'}
+                        className='four columns',
+                        style={'margin': '20'}
                     ),
                 ],
                 className='row'

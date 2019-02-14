@@ -14,8 +14,8 @@ def bu_pie(df, bu, val):
                 opacity=0.7,
                 )]
     layout = go.Layout(
-                margin={'l': 80, 'b': 200, 't': 10, 'r': 10},
-                legend={'x': 0, 'y': 1},
+                margin={'l': 20, 'b': 20, 't': 10, 'r': 10},
+                legend={'y': -2},
                 hovermode='closest',
                 # clickmode='event+select'
             )
@@ -44,7 +44,7 @@ def location_bar(df, gp, gps, xv, yv, tv):
                 xaxis={'title': 'Location'},
                 yaxis={'title': 'Active Reqs', 'range': [0, 5]},
                 margin={'l': 40, 'b': 200, 't': 10, 'r': 10},
-                legend={'x': 0, 'y': 1},
+                legend={'x': 0, 'y': 1, 'orientation': 'h'},
                 clickmode='select+event',
                 hovermode='closest'
             )
@@ -69,8 +69,8 @@ def generate_details(val):
     layout = go.Layout(
                 xaxis={'visible': show, 'showgrid': False},
                 yaxis={'visible': show, 'showgrid': False},
-                margin={'l': 200, 'b': 200, 't': 10, 'r': 10},
-                legend={'x': 0, 'y': 1},
+                margin={'l': 20, 'b': 20, 't': 10, 'r': 10},
+                legend={'x': -2},
                 hovermode='closest',
                 showlegend=False
             )
@@ -101,8 +101,8 @@ def generate_rfs_bar(df):
     layout = go.Layout(
                 xaxis={'title': 'Month'},
                 yaxis={'title': 'Active Reqs', 'type': 'log'},
-                margin={'l': 40, 'b': 200, 't': 10, 'r': 10},
-                legend={'x': 0, 'y': 1},
+                margin={'l': 10, 'b': 40, 't': 40, 'r': 10},
+                legend={'y': 1, 'orientation': 'h'},
                 clickmode='select+event',
                 hovermode='closest'
             )
