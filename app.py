@@ -99,9 +99,9 @@ def fill_details(val):
 )
 def fill_findata(val1, val2, val3):
     dff = fin
-    gpf = 'CLIN'
-    if (val1 == 1):
-        gpf='RFS'
+    gpf = 'RFS'
+    if (val1 == 0):
+        gpf='CLIN'
     if (val2):
         dff = dff[dff['RFS'].isin(val2)]
     if (val3):
