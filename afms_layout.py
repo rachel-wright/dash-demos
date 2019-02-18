@@ -225,35 +225,35 @@ def budget_layout(params):
                         className='eight columns',
                         style={'margin': '20'}
                     ),
-                    html.Div(
-                        [
-                            dcc.Graph(id='graph2', figure=blank_figure, config=figure_config)
-                        ],
-                        className='four columns',
-                        style={'margin': '20'}
-                    ),
+                    # html.Div(
+                    #     [
+                    #         dcc.Graph(id='graph2', figure=blank_figure, config=figure_config)
+                    #     ],
+                    #     className='four columns',
+                    #     style={'margin': '20'}
+                    # ),
                 ],
                 className='row'
             ),
-            html.Div(
-                [
-                    html.Div(
-                        [
-                            dcc.Graph(id='graph3',figure=blank_figure)
-                        ],
-                        className='six columns',
-                        style={'margin-top': '20'}
-                    ),
-                    html.Div(
-                        [
-                            dcc.Graph(id='graph4',figure=blank_figure)
-                        ],
-                        className='six columns',
-                        style={'margin-top': '20'}
-                    ),
-                ],
-                className='row'
-            ),
+            # html.Div(
+            #     [
+            #         html.Div(
+            #             [
+            #                 dcc.Graph(id='graph3',figure=blank_figure)
+            #             ],
+            #             className='six columns',
+            #             style={'margin-top': '20'}
+            #         ),
+            #         html.Div(
+            #             [
+            #                 dcc.Graph(id='graph4',figure=blank_figure)
+            #             ],
+            #             className='six columns',
+            #             style={'margin-top': '20'}
+            #         ),
+            #     ],
+            #     className='row'
+            # ),
         ],
         className='ten columns offset-by-one'
     )
