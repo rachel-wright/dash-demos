@@ -77,12 +77,12 @@ def generate_details(val):
 def generate_fin_bar(df, gp):
     xv='Month'
     yv='Actuals'
-    gps=df[gp].unique()
+    gps=df[gp].unique().astype('str')
     traces = []
     for i in gps:
         traces.append(go.Bar(
-            x=df[df[gp] == i][xv],
-            y=df[df[gp] == i][yv],
+            x=df[df[gp].astype('str') == i][xv],
+            y=df[df[gp].astype('str') == i][yv],
             opacity=0.7,            
             name=i,
             textposition = 'auto',
