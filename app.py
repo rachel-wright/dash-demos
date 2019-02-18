@@ -92,8 +92,8 @@ def fill_details(val):
     return afms_charts.generate_details(val)
 
 @app.callback(
-    dash.dependencies.Output('graph1', 'figure'),
-    [dash.dependencies.Input('my_slider','value'),
+    dash.dependencies.Output('fin_graph', 'figure'),
+    [dash.dependencies.Input('gp_slider','value'),
     dash.dependencies.Input('rfs_selector','value'),
     dash.dependencies.Input('clin_selector','value')]
 )

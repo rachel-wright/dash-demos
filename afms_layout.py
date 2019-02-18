@@ -149,13 +149,13 @@ def budget_layout(params):
                 [
                     html.Div(
                         [
-                            dcc.Dropdown(id='my_slider',
+                            dcc.RadioItems(id='gp_slider',
                                         options=[{'value': 0, 'label': 'CLIN'},{'value': 1, 'label': 'RFS'}],
                                         value=0,
-                                        #labelStyle={'display': 'inline-block'}
+                                        labelStyle={'display': 'inline-block'}
                                         )
                             # dcc.Slider(
-                            #                     id='my_slider',
+                            #                     id='gp_slider',
                             #                     min=0,
                             #                     max=1,
                             #                     step=1,
@@ -220,7 +220,7 @@ def budget_layout(params):
                 [
                     html.Div(
                         [
-                            dcc.Graph(id='graph1', figure=blank_figure, config=figure_config)
+                            dcc.Graph(id='fin_graph', figure=blank_figure, config=figure_config)
                         ],
                         className='eight columns',
                         style={'margin': '20'}
