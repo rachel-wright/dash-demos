@@ -157,8 +157,7 @@ def budget_layout(params):
                                                 value=0,
                                                 marks={0: 'CLIN', 1: 'RFS'},
                                                 included=False
-                                            ),
-                            html.Div(id='slider-output-container')
+                                            )
                             # html.Table(
                             #     [html.Tr(
                             #         [html.Td(html.P('CLIN')),
