@@ -14,8 +14,8 @@ figure_config = {
 def afms_layout(params):
     return html.Div([
         dcc.Tabs(id="tabs", value='tab-1', children=[
-            dcc.Tab(label='Recruiting', children=recruiting_layout(params)),
             dcc.Tab(label='Billing', children=budget_layout(params)),
+            dcc.Tab(label='Recruiting', children=recruiting_layout(params)),
         ]),
     ])
 
