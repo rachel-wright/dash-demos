@@ -149,15 +149,19 @@ def budget_layout(params):
                 [
                     html.Div(
                         [
-                            dcc.Slider(
-                                                id='my_slider',
-                                                min=0,
-                                                max=1,
-                                                step=1,
-                                                value=0,
-                                                marks={0: 'CLIN', 1: 'RFS'},
-                                                included=False
-                                            )
+                            dcc.RadioItems(id='my_slider',
+                                        options=[{'value': 0, 'label': 'CLIN'},{'value': 1, 'label': 'RFS'}],
+                                        value=0,
+                                        labelStyle={'display': 'inline-block'})
+                            # dcc.Slider(
+                            #                     id='my_slider',
+                            #                     min=0,
+                            #                     max=1,
+                            #                     step=1,
+                            #                     value=0,
+                            #                     marks={0: 'CLIN', 1: 'RFS'},
+                            #                     included=False
+                            #                 )
                             # html.Table(
                             #     [html.Tr(
                             #         [html.Td(html.P('CLIN')),
@@ -171,7 +175,7 @@ def budget_layout(params):
                             #     )]
                             # )                            
                         ],
-                        className='one columns',
+                        className='two columns',
                         style={'margin-left': '20', 'margin-bottom': '40'}
                     )
                 ],
