@@ -16,8 +16,7 @@ def bu_pie(df, bu, val):
     layout = go.Layout(
                 margin={'l': 20, 'b': 20, 't': 10, 'r': 10},
                 legend={'y': -2},
-                hovermode='closest',
-                # clickmode='event+select'
+                hovermode='closest'
             )
     return {'data': trace, 'layout': layout}
 
@@ -45,7 +44,6 @@ def location_bar(df, gp, gps, xv, yv, tv):
                 yaxis={'title': 'Active Reqs', 'range': [0, 5]},
                 margin={'l': 40, 'b': 200, 't': 10, 'r': 10},
                 legend={'x': 0, 'y': 1, 'orientation': 'h'},
-                clickmode='select+event',
                 hovermode='closest'
             )
 
@@ -76,12 +74,10 @@ def generate_details(val):
             )
     return {'data': trace, 'layout': layout} 
 
-def generate_rfs_bar(df):
-    gp='CLIN'
+def generate_fin_bar(df, gp):
     xv='Month'
     yv='Actuals'
     gps=df[gp].unique()
-    df2=pd.DataFrame({'Total': df.groupby([xv])[yv].sum()}).reset_index()
     traces = []
     for i in gps:
         traces.append(go.Bar(
@@ -90,21 +86,27 @@ def generate_rfs_bar(df):
             opacity=0.7,            
             name=i,
             textposition = 'auto',
+            hoverinfo='none'
         ))
 
-    traces.append(go.Scatter(        
+    df2=pd.DataFrame({'Total': df.groupby([xv])[yv].sum()}).reset_index()
+    traces.append(go.Bar(        
         x=df2[xv],
         y=df2['Total'],
-        name="Total"
+        opacity=0,
+        hoverinfo='all',
+        # hovertemplate="<b>%{fullData.name}</b><br>Total: %{y}<br><extra></extra>",
+        name="Total",
+        base=0
         ))
 
     layout = go.Layout(
-                xaxis={'title': 'Month'},
-                yaxis={'title': 'Active Reqs', 'type': 'log'},
-                margin={'l': 10, 'b': 40, 't': 40, 'r': 10},
-                legend={'y': 1, 'orientation': 'h'},
-                clickmode='select+event',
-                hovermode='closest'
+                xaxis={'title': xv},
+                yaxis={'title': yv},
+                margin={'l': 60, 'b': 40, 't': 40, 'r': 60},
+                legend={'y': -0.2, 'orientation': 'h'},
+                hovermode='closest',
+                barmode='stack'
             )
 
     return {

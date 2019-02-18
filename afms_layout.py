@@ -149,19 +149,31 @@ def budget_layout(params):
                 [
                     html.Div(
                         [
-                            html.Table(
-                                [html.Tr(
-                                    [html.Td(html.P('CLIN')),
-                                    html.Td(html.Label([
-                                                    dcc.Input(type='checkbox'),
-                                                    html.Span(className='slider switch round')
-                                                ],
-                                                className='switch')),
-                                    html.Td(html.P('RFS'))]
-                                )]
-                            )                            
+                            dcc.Slider(
+                                                id='my_slider',
+                                                min=0,
+                                                max=1,
+                                                step=1,
+                                                value=0,
+                                                marks={0: 'CLIN', 1: 'RFS'},
+                                                included=False
+                                            ),
+                            html.Div(id='slider-output-container')
+                            # html.Table(
+                            #     [html.Tr(
+                            #         [html.Td(html.P('CLIN')),
+                            #         # dcc.Checklist(id='gp_selector', options=[{'label': '', 'value': 'CLIN'}], values=['CLIN']),
+                            #         # html.Td(html.Label([
+                            #         #                 dcc.Input(id='gp_selector', type='checkbox'),
+                            #         #                 html.Span(className='slider switch round')
+                            #         #             ],
+                            #         #             className='switch')),                                    
+                            #         html.Td(html.P('RFS'))]
+                            #     )]
+                            # )                            
                         ],
-                        className='four columns'
+                        className='one columns',
+                        style={'margin-left': '20', 'margin-bottom': '40'}
                     )
                 ],
                 className='row'

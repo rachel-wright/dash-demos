@@ -64,15 +64,12 @@ def load_bupie(val1, val2):
     dash.dependencies.Input('bu_selector', 'value')]    
 )
 def update_figure(val1, val2):
-    if (val1 and val2):
-        filtered_df = barraw[barraw[gp].isin(val1) and barraw[bu].isin(val2)]
-    elif (val1):
-        filtered_df = barraw[barraw[gp].isin(val1)]
-    elif (val2):
-        filtered_df = barraw[barraw[bu].isin(val2)]
-    else:
-        filtered_df = barraw
-    return afms_charts.location_bar(filtered_df, gp, gps, xv, yv, tv)
+    dfr = barraw
+    if (val1):
+        dfr = dfr[dfr[gp].isin(val1)]
+    if (val2):
+        dfr = dfr[dfr[bu].isin(val2)]
+    return afms_charts.location_bar(dfr, gp, gps, xv, yv, tv)
 
 # Filter bar when pie is clicked
 @app.callback(
@@ -96,11 +93,20 @@ def fill_details(val):
 
 @app.callback(
     dash.dependencies.Output('graph1', 'figure'),
-    [dash.dependencies.Input('rfs_selector','value'),
+    [dash.dependencies.Input('my_slider','value'),
+    dash.dependencies.Input('rfs_selector','value'),
     dash.dependencies.Input('clin_selector','value')]
 )
-def fill_findata(val1, val2):
-    return afms_charts.generate_rfs_bar(fin)
+def fill_findata(val1, val2, val3):
+    dff = fin
+    gpf = 'CLIN'
+    if (val1 == 1):
+        gpf='RFS'
+    if (val2):
+        dff = dff[dff['RFS'].isin(val2)]
+    if (val3):
+        dff = dff[dff['CLIN'].isin(val3)]
+    return afms_charts.generate_fin_bar(dff,gpf)
 
 @app.server.route('/')
 def index():
